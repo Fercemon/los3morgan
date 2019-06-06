@@ -215,6 +215,10 @@ section {
     text-transform: uppercase;
 }
 
+.event-text a {
+    color: #0C0C0C;
+}
+
 .event-logo {
     height: 1rem;
 }

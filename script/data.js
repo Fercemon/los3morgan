@@ -27,6 +27,8 @@ function showEvents(events) {
         clone.querySelector(".event-day").textContent = event.day;
         clone.querySelector("#city").textContent = event.city;
         clone.querySelector("#location").textContent = event.location;
+        clone.querySelector(".ticket-wrapper").href = event.tickets;
+        clone.querySelector(".rsvp-wrapper").href = event.tickets;
 
         if (event.categories == 3) {
             upcomingEvents.appendChild(clone);
